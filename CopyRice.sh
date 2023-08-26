@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Variables
 
 day=$(date +%F%H%M)
 temp=/tmp/tmp_backups
@@ -49,7 +48,7 @@ select drive in "${drives[@]}" none; do
 done
 echo "Saving backup to $drive"  
 
- cp -r $backup/Rice$day $drive & PID=$! #simulate a long process
+ cp -r $backup/Rice$day $drive & PID=$! 
 
 echo "THIS MAY TAKE A MINUTE..."
 printf "["
