@@ -9,12 +9,15 @@ Wanting to create a menue to add additional directories but haven't had time to 
 
 ## how to run
 1. Clone this repo
+
    git clone https://github.com/howmanygrapes/CopyRice.git
 
-2. cd into directory and chmod +x
+3. cd into directory and chmod +x
+
    cd /path/to/CopyRice && chmod +x CopyRice.sh
 
-3. Run it
+5. Run it
+
    ./CopyRice.sh
 
 ## additional comments
