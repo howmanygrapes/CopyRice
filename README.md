@@ -10,15 +10,15 @@ Wanting to create a menue to add additional directories but haven't had time to 
 ## how to run
 1. Clone this repo
 
-   git clone https://github.com/howmanygrapes/CopyRice.git
+*git clone https://github.com/howmanygrapes/CopyRice.git*
 
 3. cd into directory and chmod +x
 
-   cd /path/to/CopyRice && chmod +x CopyRice.sh
+*cd /path/to/CopyRice && chmod +x CopyRice.sh*
 
 5. Run it
 
-   ./CopyRice.sh
+*./CopyRice.sh*
 
 ## additional comments
 Still very much a beginner when it comes to writting bash scripts, so there very well may be things that could be done a lot better and cleaner.
